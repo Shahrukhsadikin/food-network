@@ -1,0 +1,84 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.topnav{
+  margin-left: 900px;
+ 
+
+}
+
+span{
+    color: orange;
+}
+.food-network{
+    display: flex;
+}
+.half-width {
+    margin-top: 0%;
+    width: 50%;
+    padding-left: 3%;
+    padding-right: 6%;
+  }
+.order-button{
+    
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+.fast-img{
+    width: 80%;
+    padding: 2%;
+}
+.about-me{
+    margin-top: 10%;
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 6%;
+     
+    
+    
+}
+.top-banar{
+    background-image: url(shapes/background-img.png);
+    background-repeat: no-repeat;
+}
+
+.scend-img{
+    width: 100%;
+    padding: 5%;
+}
+.recipies{
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 50px; 
+    width: 70%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+.recipiea-img{
+    border-radius: 28px;
+    width: 70%;
+    padding: 5%;
+}
+.recipies-title{
+    border-radius: 28px;
+    
+    margin-top: 2%;
+    margin-left: 40px;
+    width: 70%;
+    padding: 2%;
+   
+    box-shadow: 10px 10px 40px gray;
+   border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
