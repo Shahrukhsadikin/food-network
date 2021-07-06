@@ -90,16 +90,21 @@ span{
     text-align: center;
     margin-left: 350px;
   }
+ .food-cover{
+    
+     height: 250px;
+ }
 .recipiea-img{
     border-radius: 28px;
     width: 70%;
-    padding: 5%;
+   padding: 5%;
 }
 .recipies-title{
     border-radius: 28px;
     
     margin-top: 2%;
-    margin-left: 40px;
+    margin-left: 30px;
+    margin-right: 20px;
     width: 70%;
     padding: 2%;
    
@@ -108,11 +113,11 @@ span{
 }
 .social{
     text-align: center;
-    border-radius: 28px;
-    margin: 20px 40px;
+    border-radius: 25px;
+    margin: 10px 20px;
     overflow: hidden;
-    background-image: linear-gradient(rgb(55, 55, 167),skyblue);
-      box-shadow: 10px 10px 40px gray;
+    
+    box-shadow: 10px 10px 40px gray;
    border-image-slice: 1;
 }
 .fa {
@@ -123,16 +128,35 @@ span{
     text-decoration: none;
   }
   .fa:hover {
-    opacity: 0.7;}
-    .fa-facebook {
-        background: #3B5998;
-        color: white;
-    }
-    .fa-twitter {
-        background: #55ACEE;
-        color: white;
-    }
+    opacity: 0.7;
+}
+.fa-facebook {
+     background: #283d6b;
+     color: white;
+     padding: 10px;
+     border-radius: 70px;
+  
+}
+.fa-twitter {
+    background: #55ACEE;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    border-radius: 70px;
+  
+}
+.fa-instagram{
+background-image:linear-gradient(blue,red,orange);
+padding: 10px;
+border-radius: 70px;
 
+  
+}
+.fa-linkedin{
+    background: rgb(31, 31, 95);
+    padding: 10px;
+    border-radius: 70px;
+}
 
 footer{
     text-align: center;
